@@ -5,10 +5,11 @@
 }
 
 .header {
+    align-items: center;
+    justify-content: center;
     background-image: url('/assets/header/header.png');
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
     display: flex;
     height: 300px;
     padding: 0 $padding-horizontal;

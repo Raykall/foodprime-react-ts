@@ -1,3 +1,4 @@
+import Buscador from 'pages/Buscador';
 import styles from './Cardapio.module.scss';
 import {ReactComponent as Logo} from 'assets/logofp.svg';
 export default  function Cardapio() {
@@ -11,6 +12,10 @@ export default  function Cardapio() {
                     A Loja Fit dos Sonhos!
                 </div>
             </header>
+            <section className={styles.cardapio}>
+                <h3 className={styles.cardapio__text}>Cardápio</h3>
+                <Buscador />
+            </section>
         </main>
     )
 }

@@ -1,7 +1,9 @@
 import Buscador from 'pages/Buscador';
 import styles from './Cardapio.module.scss';
 import {ReactComponent as Logo} from 'assets/logofp.svg';
+import { useState} from 'react';
 export default  function Cardapio() {
+    const [busca, setBusca] = useState("");
     return(
         <main>
             <nav className={styles.menu}>
@@ -14,7 +16,7 @@ export default  function Cardapio() {
             </header>
             <section className={styles.cardapio}>
                 <h3 className={styles.cardapio__text}>Cardápio</h3>
-                <Buscador />
+                <Buscador busca={busca} setBusca={setBusca}/>
             </section>
         </main>
     )

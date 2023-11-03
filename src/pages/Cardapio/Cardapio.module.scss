@@ -1,0 +1,21 @@
+@import "styles/variaveis";
+
+.menu {
+  padding: 20px $padding-horizontal;
+}
+
+.header {
+    background-image: url('/assets/header/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    padding: 0 $padding-horizontal;
+  &__text {
+    color: white;
+    font-size: 5rem;
+    min-width: 400px;
+    width: 40%;
+  }
+}

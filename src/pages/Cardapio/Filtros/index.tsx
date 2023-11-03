@@ -1,6 +1,6 @@
 import filtros from "./filtros.json";
 import styles from "./Filtros.module.scss";
-
+import classNames from "classnames";
 type IOpcao = (typeof filtros)[0];
 
 interface Props {
@@ -9,20 +9,23 @@ interface Props {
 }
 export default function Filtros({ filtro, setFiltro }: Props) {
   function selecionarFiltro(opcao: IOpcao) {
+    if(filtro === opcao.id) {
+      return setFiltro(null)
+    }
     return setFiltro(opcao.id);
   }
   return (
     <div className={styles.filtros}>
       {filtros.map((opcao) => (
         <button
-          className={`${styles.filtros__text} ${
-            filtro === opcao.id ? styles["filtros__text--ativo"] : ""
-          }`}
+          className={classNames({
+            [styles.filtros__text]: true,
+            [styles['filtros__text--ativo']]: filtro === opcao.id
+          })}
           key={opcao.id}
           onClick={() => selecionarFiltro(opcao)}
         >
-          {" "}
-          {opcao.label}{" "}
+          {opcao.label}
         </button>
       ))}
     </div>

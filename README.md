@@ -27,7 +27,7 @@ Consulte a seção sobre  [running tests](https://facebook.github.io/create-reac
 
 ### `Imagem ilustrativa do Projeto`
 <div align="center"> 
- <img src="https://github.com/Raykall/foodprime-react-ts/assets/115380965/39b9f8b4-7516-4cb0-b109-d52824170e9c"  alt="testando"/>
+ <img src="https://i.imgur.com/xiHD1Qc.png"  alt="Imagem Ilustratiuva do Projeto FoodPrime"/>
 </div>
 
 ## Learn More

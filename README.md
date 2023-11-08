@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Projeto Food_Prime, desenvolvido através de Create-React-App, com o complemento da Linguagem TypeScript</h1>
+  <h1>Projeto Food Prime, desenvolvido através de Create-React-App, com o complemento da Linguagem TypeScript</h1>
 </div>
 <div align="center">
     <p>

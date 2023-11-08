@@ -25,12 +25,12 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `Imagem ilustrativa do Projeto`
-<div align="center"> </div>
-<img src="" width="1280px" />
-
+<div align="center"> 
+ <img src="https://github.com/Raykall/foodprime-react-ts/assets/115380965/39b9f8b4-7516-4cb0-b109-d52824170e9c"  alt="testando"/>
+</div>
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Você pode aprender mais na [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para aprender o React, verifique a [React documentation](https://reactjs.org/).
